@@ -6,6 +6,7 @@ body{
     background-image: url("images/background.png");
     background-color: black;
     background-repeat: no-repeat;
+    image-size: auto;
 }
 #GT{
     background-color: lime;
@@ -24,5 +25,6 @@ body{
     height: 900px;
     margin: auto;
     text-align: center;
+    text-color: lime;
     font-size: larger;
 }
