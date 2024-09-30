@@ -8,15 +8,14 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
-#GT{
+#NAV{
   background-color: lime;
-  border-style: solid;
   font-family: MARIOFont;
   width: auto;
-  margin: auto;
-  text-align: center;
-  color: lime;
-  font-size: larger;
+  height: 50px;
+  text-indent: 10px;
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
 }
 #TEXTBOX{
   background-color: rgb(0, 0, 0);
