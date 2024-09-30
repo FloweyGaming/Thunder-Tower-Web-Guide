@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'MARIOFont';
+    src: url('font/mariofont.otf');
+  }
+body{
+    background-image: url("images/background.png");
+    background-color: black;
+    background-repeat: no-repeat;
+}
+#GT{
+    background-color: lime;
+    width: 100%;
+    color: lime;
+    font-weight: bold;
+    height: 20px;
+}
+#TEXTBOX{
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    border-style: solid;
+    border-color: lime;
+    font-family: MARIOFont;
+    width: 600px;
+    height: 900px;
+    margin: auto;
+    text-align: center;
+    font-size: larger;
+}
