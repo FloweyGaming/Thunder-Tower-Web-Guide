@@ -13,8 +13,7 @@ body{
   font-family: MARIOFont;
   width: auto;
   height: 50px;
-  text-indent: 10px;
-  border-radius: 5px;
+  border-radius: 10px;
   color: rgb(0, 0, 0);
 }
 #MAP{
@@ -29,10 +28,16 @@ body{
   border-style: solid;
   border-color: lime;
   font-family: MARIOFont;
-  width: 600px;
+  width: auto;
   height: 900px;
   margin: auto;
   text-align: center;
   color: lime;
   font-size: larger;
+}
+h1{
+  color: white;
+  text-decoration: underline;
+  margin-left: 10px;
+  text-align: start;
 }
