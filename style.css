@@ -22,6 +22,19 @@ body{
 #BACK{
   height: 50px;
 }
+.button{
+  background-color: lime;
+  color: black;
+  border-radius: 5px;
+  padding: 2px;
+  text-decoration: none;
+  text-align: center;
+  margin-inline-start: 2px;
+}
+.button:hover{
+  box-shadow: 0 0 10px 5px rgb(255, 255, 255);
+  cursor: pointer;
+}
 #TEXTBOX{
   background-color: rgb(0, 0, 0);
   border-radius: 20px;
@@ -31,9 +44,12 @@ body{
   width: auto;
   height: 900px;
   margin: auto;
-  text-align: center;
-  color: lime;
+  color: white;
   font-size: larger;
+}
+#WELCOME{
+  color: lime;
+  text-align: center;
 }
 h1{
   color: white;
@@ -43,7 +59,15 @@ h1{
 }
 #PTCUFR:hover {
   box-shadow: 0 0 10px 5px rgb(255, 255, 255);
+  cursor: pointer;
 }
 #PTCUFR{
   align-items: start;
+  border-radius: 5px;
+  border-color: white;
+  border-style: outset;
+  margin-right: 100%;
+  margin-left: 10px;
+  max-width: 100%;
+  height: auto;
 }
