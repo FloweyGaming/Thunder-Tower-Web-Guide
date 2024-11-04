@@ -1,12 +1,12 @@
 @font-face {
-    font-family: 'MARIOFont';
-    src: url('font/mariofont.otf');
-  }
+  font-family: 'MARIOFont';
+  src: url('font/mariofont.otf');
+}
 body{
-    background-image: url("images/background.png");
-    background-color: black;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url("images/background.png");
+  background-color: black;
+  background-repeat: no-repeat; 
+  background-size: cover;
 }
 #NAV{
   background-color: lime;
@@ -23,9 +23,11 @@ body{
   height: 50px;
 }
 .button{
-  background-color: lime;
-  color: black;
+  background-color: black;
+  color: lime;
   border-radius: 5px;
+  border-style: solid;
+  border-color: lime;
   padding: 2px;
   text-decoration: none;
   text-align: center;
@@ -62,12 +64,15 @@ h1{
   cursor: pointer;
 }
 #PTCUFR{
-  align-items: start;
+  align-items: center;
   border-radius: 5px;
   border-color: white;
   border-style: outset;
-  margin-right: 100%;
+  margin-right: 10px;
   margin-left: 10px;
-  max-width: 100%;
+  max-width: 96%;
   height: auto;
+}
+#PTCUFRTXT{
+  text-align: center;
 }
